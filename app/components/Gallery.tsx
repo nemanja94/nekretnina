@@ -95,7 +95,7 @@ export default function Gallery() {
         ))}
       </div>
 
-      <div className="md:hidden mt-4 text-center">
+      <div className="mt-4 text-center">
         <button
           onClick={() => setIsExpanded(!isExpanded)}
           className="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600 transition-colors"
